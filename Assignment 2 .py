@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 #Q.NO.(1).WAP where user will input the string and program should display all the word starting from alphabet "a" or "A".
 
 
@@ -51,7 +45,7 @@ print(list2)
 
 # append() :Add an element to the names list:
 
-names = ['anil', 'niroz', 'ankur']
+names = ['sanket', 'adarsh', 'ankur']
 names.append("arjun")
 print(names)
 
@@ -63,7 +57,7 @@ print(names)
 
 animals = ['horse', 'dog', 'donkey']
 
-names= ['anil', 'ankur', 'niroz']
+names= ['sanket', 'ankur', 'niroz']
 
 animals.extend(names)
 print(animals)
@@ -74,7 +68,7 @@ print(animals)
 
 # remove(): removes the specified item:
 
-list1 = ["anil", "ankur", "niroz","nabin"]
+list1 = ["sanket", "adarsh", "niroz","nabin"]
 list1.remove("nabin")
 print(list1)
 
